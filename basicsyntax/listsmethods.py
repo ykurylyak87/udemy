@@ -26,3 +26,5 @@ print(slicing)
 
 cars.sort()
 print(cars)
+
+print(cars.count("audi"))
