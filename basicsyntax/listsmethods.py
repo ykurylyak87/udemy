@@ -20,4 +20,9 @@ cars.remove("jeep")
 print(cars)
 
 slicing = cars[0:2]
+a = cars[1:]
+print(a)
 print(slicing)
+
+cars.sort()
+print(cars)
