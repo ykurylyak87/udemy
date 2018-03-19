@@ -1,3 +1,6 @@
+"""
+Buil-in methods to help manipulating a list
+"""
 cars = ["bmw", "honda", "audi"]
 
 length = len(cars)
