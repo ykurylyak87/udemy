@@ -8,8 +8,11 @@ def state_tax(state):
 
 def net_tax(gross):
     state_name = input("Input the name of state: ")
-    net_value = gross - (gross * state_tax(state_name)) - (gross * fed_tax)
-    return net_value
+    if state_name in l:
+        net_value = gross - (gross * state_tax(state_name)) - (gross * fed_tax)
+        return net_value
+    else:
+        return None
 
 
 x = float(input("Input gross value: "))
