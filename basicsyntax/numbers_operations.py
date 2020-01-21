@@ -7,5 +7,5 @@ This is a multi-line comment
 Modulo - it returns the remainder
 """
 
-remainder = 100 % 3
+remainder = 10 % 3
 print(remainder)
