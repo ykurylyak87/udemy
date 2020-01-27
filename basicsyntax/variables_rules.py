@@ -1,3 +1,6 @@
+"""
+variables rules
+"""
 import keyword
 
 #print(keyword.kwlist)
