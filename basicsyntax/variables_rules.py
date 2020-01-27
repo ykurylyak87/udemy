@@ -3,12 +3,18 @@ variables rules
 """
 import keyword
 
-#print(keyword.kwlist)
+# this will print a list of keywords
+print(keyword.kwlist)
+print(10 * "*")
 
+# this will print a list of keywords each one from the new line
 for x in keyword.kwlist:
     print(x)
-print(10 * "-")
+print(10 * "*")
+
+# another way to print list every string from a new line
 print('\n'.join(keyword.kwlist))
+print(10 * "*")
 
 a = b = c = 10
 print(a)
