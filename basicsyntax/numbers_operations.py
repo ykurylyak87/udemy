@@ -8,4 +8,6 @@ Modulo - it returns the remainder
 """
 
 remainder = 10 % 3
+remainder2 = 10 % 2
 print(remainder)
+print(remainder2)
