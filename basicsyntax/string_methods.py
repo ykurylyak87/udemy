@@ -1,23 +1,24 @@
 first = "nyc"
 print(first[1])
+print(first[0] + first[1] + first[2])
 
 ft = first[0]
-print(ft)
+print("print ft variable: " + ft)
 
 '''
-len()
+len() - count the number of characters
 lower() - change case to lower
-upper()
+upper() - change case to upper
 str() - convert to string
 '''
 
-stre = "This is a mixed CASE"
-print(stre.lower())
-print(stre.upper())
-print(len(stre))
+string = "This is a mixed CASE"
+print("print string with lower case: " + string.lower())
+print("print string with upper case: " + string.upper())
+print("count length of the string: " + str(len(string)))
 
 
-print(stre + str(2))
+print(string + " " + str(2))
 
 '''
 Concatenation
