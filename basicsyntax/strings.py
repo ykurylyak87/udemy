@@ -1,5 +1,5 @@
 a = "This is a simple string"
-b = 'Using single quates'
+b = 'Using single quotes'
 
 print(a)
 print(b)
