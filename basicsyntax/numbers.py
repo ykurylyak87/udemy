@@ -19,3 +19,5 @@ print("mult =", mult)
 div = b / a
 print("div = ", div)
 
+div2 = b // a
+print("div2 = ", div2)
